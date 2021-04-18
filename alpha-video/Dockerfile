@@ -1,4 +1,5 @@
-FROM andrewstech/alpha-video-baseplate:latest
+ARG BUILD_FROM
+FROM $BUILD_FROM
 WORKDIR /app
 COPY run.sh run.sh
 RUN chmod 777 run.sh
