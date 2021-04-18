@@ -1,6 +1,7 @@
 #!/bin/sh
 CONFIG_PATH=/data/options.json
-TARGET="$(bashio::config 'subdomain')"
+subdomain="$(jq --raw-output 'subdomain' $CONFIG_PATH)" 
+export subdomain
 echo "          _      _____  _    _           __      _______ _____  ______ ____  "
 echo "    /\   | |    |  __ \| |  | |   /\     \ \    / /_   _|  __ \|  ____/ __ \ "
 echo "   /  \  | |    | |__) | |__| |  /  \     \ \  / /  | | | |  | | |__ | |  | |"
