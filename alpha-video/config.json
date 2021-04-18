@@ -12,7 +12,7 @@
   ],
   "startup": "before",
   "boot": "auto",
-  "options": {},
+  "options": {"subdomain": "m" },
   "schema": {},
   "ports": {
     "5000/tcp": 5000
