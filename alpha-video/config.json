@@ -1,21 +1,20 @@
 {
-  "name": "Alpha-Video",
-  "version": "0.4",
-  "slug": "alphavideo",
-  "arch": ["arm", "arm64", "amd64"],
-  "description": "Youtube-On-Alexa",
-  "startup": "once",
-  "boot": "manual",
-  "map": ["config"],
-  "options": {
-    "target": null,
-    "username": null,
-    "password": ""
-  },
-  "schema": {
-    "target": "url",
-    "username": "str",
-    "password": "str"
-  },
-  "image": "hub/{arch}-sync"
+  "name": "Alpha Video",
+  "version": "0.23",
+  "slug": "alpha_video",
+  "description": "Alpha Video add-on!",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "5000/tcp": 5000
+  }
 }
