@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 CONFIG_PATH=/data/options.json
 subdomain="$(jq --raw-output 'subdomain' $CONFIG_PATH)" 
 export subdomain
