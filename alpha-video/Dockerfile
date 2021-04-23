@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=hassioaddons/base-python:5.2.0
 FROM $BUILD_FROM
 RUN apk update && apk add libressl-dev postgresql-dev libffi-dev gcc musl-dev python3 python3-dev git nodejs npm nano wget curl net-tools unzip supervisor screen
 WORKDIR /app
