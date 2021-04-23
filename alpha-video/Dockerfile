@@ -1,8 +1,9 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
-RUN apk update && apk add libressl-dev postgresql-dev libffi-dev gcc musl-dev python3 python3-dev python3-pip git nodejs npm nano wget curl net-tools unzip supervisor screen
+RUN apk update && apk add libressl-dev postgresql-dev libffi-dev gcc musl-dev python3 python3-dev git nodejs npm nano wget curl net-tools unzip supervisor screen
 WORKDIR /app
-RUN pip3 install -r requirements.txt
+RUN python3 -m pip install pip==9.0.3
+RUN pip install -r requirements.txt
 COPY run.sh run.sh
 RUN chmod 777 run.sh
 COPY . /app
