@@ -16,5 +16,18 @@
   "schema": {},
   "ports": {
     "5000/tcp": 5000
+  },
+  "ports_description": {
+    "5000/tcp": "Alpha-Video web portal"
+  },
+  "hassio_api": true,
+  "options": {
+    "subdomain": "",
+    "placeholder": false
+  },
+  "schema": {
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+    "subdomain": "str",
+    "placeholder": "bool"
   }
 }
