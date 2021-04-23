@@ -1,5 +1,4 @@
-ARG BUILD_FROM=hassioaddons/base-python:5.2.0
-FROM $BUILD_FROM
+FROM andrewstech/alpha-video-baseplate:latest
 RUN apk update && apk add libressl-dev postgresql-dev libffi-dev gcc musl-dev python3 python3-dev git nodejs npm nano wget curl net-tools unzip supervisor screen
 WORKDIR /app
 RUN python3 -m pip install pip==9.0.3
