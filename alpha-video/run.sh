@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 CONFIG_PATH=/data/options.json
-subdomain="$(jq --raw-output 'subdomain' $CONFIG_PATH)" 
+subdomain="$(bashio::config 'subdomain')"
 export subdomain
 
 echo "For support please visit the Github Project or send a message on our Discord server."
