@@ -20,7 +20,7 @@ COPY ./ydl_server /usr/src/app/ydl_server
 COPY ./youtube-dl-server.py /usr/src/app/
 
 WORKDIR /usr/src/app
-
+RUN chmod +x bootstrap.sh
 RUN apk add --no-cache wget && ./bootstrap.sh && apk del wget
 
 
