@@ -1,6 +1,6 @@
 {
   "name": "youtube-dl-server",
-  "version": "0.2",
+  "version": "0.3",
   "slug": "youtube_dl_server",
   "description": "youtube-dl-server",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
