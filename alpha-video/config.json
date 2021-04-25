@@ -1,6 +1,6 @@
 {
   "name": "Alpha Video",
-  "version": "1.6",
+  "version": "2.0",
   "slug": "alpha_video",
   "description": "Alpha Video add-on!",
   "arch": [
@@ -11,6 +11,7 @@
     "i386"
   ],
   "startup": "before",
+  "webui": "http://[HOST]:[PORT:5000]",
   "boot": "auto",
   "options": {},
   "schema": {},
