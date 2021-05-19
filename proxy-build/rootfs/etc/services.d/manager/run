@@ -1,0 +1,25 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: Nginx Proxy Manager
+# Runs the nginx proxy manager interface
+# ==============================================================================
+declare -a options
+
+bashio::log.info "Starting the Manager..."
+
+options+=(--abort_on_uncaught_exception)
+options+=("--max_old_space_size=250")
+
+export NODE_ENV=production
+
+if bashio::debug; then
+  export DEBUG=1
+fi
+
+# IPv6 is currently not supported yet on a Supervisor enabled system.
+export DISABLE_IPV6="true"
+
+cd /opt/nginx-proxy-manager \
+    || bashio::exit.nok "Could not change directory to app"
+
+exec node "${options[@]}" /opt/nginx-proxy-manager/index.js
