@@ -3,7 +3,7 @@
   "version": "1.5",
   "slug": "alpha_video",
   "image": "andrewstech/alpha-video",
-  "description": "Alpha Video add-on!",
+  "description": "Stream YouTube on your Alexa device.",
   "url": "https://alpha-video.andrewstech.me/",
   "arch": [
     "armhf",
