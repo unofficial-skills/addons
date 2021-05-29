@@ -24,15 +24,5 @@
   "ports_description": {
     "5000/tcp": "Alpha-Video web portal",
     "9001/tcp": "Supervisor UI"
-  },
-  "hassio_api": true,
-  "options": {
-    "subdomain": "",
-    "placeholder": false
-  },
-  "schema": {
-    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-    "subdomain": "str",
-    "placeholder": "bool"
   }
 }
