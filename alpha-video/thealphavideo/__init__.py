@@ -1,1 +1,0 @@
-"""Init file for Alpha Video."""
