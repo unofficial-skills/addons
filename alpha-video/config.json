@@ -1,6 +1,6 @@
 {
   "name": "Alpha Video",
-  "version": "3.1",
+  "version": "1.5",
   "slug": "alpha_video",
   "description": "Alpha Video add-on!",
   "url": "https://alpha-video.andrewstech.me/",
@@ -17,19 +17,11 @@
   "options": {},
   "schema": {},
   "ports": {
-    "5000/tcp": 5000
+    "5000/tcp": 5000,
+    "9001/tcp": 9001
   },
   "ports_description": {
-    "5000/tcp": "Alpha-Video web portal"
+    "5000/tcp": "Alpha-Video web portal",
+    "9001/tcp": "Supervisor ui"
   },
-  "hassio_api": true,
-  "options": {
-    "subdomain": "",
-    "placeholder": false
-  },
-  "schema": {
-    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-    "subdomain": "str",
-    "placeholder": "bool"
-  }
 }
