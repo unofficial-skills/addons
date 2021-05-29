@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <!-- HTML5 Shim and Respond.js IE10 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 10]>
+    <!-- THis Html has been taken from https://appseed.us/admin-dashboards/django-dashboard-dattaable -->
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="canonical" href="https://appseed.us/admin-dashboards/django-dashboard-dattaable">
+    
+    <meta name="description" content="Datta Able Bootstrap admin template made using Bootstrap 4 and it has huge amount of ready made feature, UI components, pages which completely fulfills any dashboard needs." />
+    <meta name="keywords" content="admin templates, bootstrap admin templates, bootstrap 4, dashboard, dashboard templets, sass admin templets, html admin templates, responsive, bootstrap admin templates free download,premium bootstrap admin templates, datta able, datta able bootstrap admin template, free admin theme, free dashboard template"/>
+    <meta name="author" content="CodedThemes"/>
+
+    <!-- Favicon icon -->
+    <link rel="icon" href="https://appsrv1-147a1.kxcdn.com/dattaable/images/favicon.ico" type="image/x-icon">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/dattaable/fonts/fontawesome/css/fontawesome-all.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/dattaable/plugins/animation/css/animate.min.css">
+    <!-- vendor css -->
+    <link rel="stylesheet" href="https://appsrv1-147a1.kxcdn.com/dattaable/css/style.css">
+
+    <!-- Specific CSS goes HERE -->
+    
+
+</head>
+
+<body>
+    
+       
+
+    <div class="auth-wrapper">
+        <div class="auth-content">
+            <div class="auth-bg">
+                <span class="r"></span>
+                <span class="r s"></span>
+                <span class="r s"></span>
+                <span class="r"></span>
+            </div>
+            <div class="card">
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        
+                    </div>
+                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+						<a class="navbar-brand" href="{{ url_for('playlist')}}">ALPHA-VIDEO</a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNav">
+							<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="{{ url_for('playlist')}}">Playlist</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" href="{{url_for('create')}}">Import Playlist</a>
+							</li>
+							</ul>
+						</div>
+					</nav>
+					<div class="container">
+						{% for message in get_flashed_messages() %}
+							<div class="alert alert-danger">{{ message }}</div>
+						{% endfor %}
+						{% block content %} {% endblock %}
+					</div>
+
+                    <br />
+                    <br />
+
+                    
+
+                    <p class="mb-0 text-muted">Logs <a href="{{url_for('logstream')}}" >Click Here</a></p>
+                    <br />
+                    <p class="mb-2 text-muted">
+                        &copy; <a target="_blank" href="https://github.com/unofficial-skills/">unofficial-skills</a> 
+                        .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+    <!-- Required Js -->
+    <script src="https://appsrv1-147a1.kxcdn.com/dattaable/js/vendor-all.min.js"></script>
+    <script src="https://appsrv1-147a1.kxcdn.com/dattaable/plugins/bootstrap/js/bootstrap.min.js"></script>
+    
+
+
+    <!-- Specific Page JS goes HERE  -->
+        
+
+</body>
+</html>

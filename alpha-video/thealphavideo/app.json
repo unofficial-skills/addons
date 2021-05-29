@@ -1,0 +1,7 @@
+{
+  "name": "Youtube-alexa",
+  "description": "YouTube for ALexa",
+  "repository": "https://github.com/unofficial-skills/youtube-alexa-python",
+  "logo": "https://pngimg.com/uploads/youtube/youtube_PNG21.png",
+  "keywords": ["youtube", "youtube-alexa", "open-source"]
+}

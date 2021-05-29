@@ -1,0 +1,85 @@
+welcome: Say an artist and/or song name
+welcome_de_DE: Sage einen Künstler und / oder Songnamen
+welcome_es_ES: Di el nombre de un artista o una canción
+welcome_es_MX: Di el nombre de un artista o una canción
+welcome_es_US: Di el nombre de un artista o una canción
+welcome_it_IT: dici il nome di una canzone e/o di un artista
+welcome_fr_CA: Dites le nom d'un artist et/ou le nom d'une chanson 
+welcome_fr_FR: Dites le nom d'un artist et/ou le nom d'une chanson
+welcome_pt_BR: Diga o nome de um artista ou de uma música
+
+
+
+
+stop: okay
+stop_de_DE: Okay
+stop_es_ES: Está bien
+stop_es_MX: Está bien
+stop_es_US: Está bien
+stop_it_IT: va bene
+stop_fr_CA: ok
+stop_fr_FR: ok
+stop_pt_BR: Tudo bem
+
+
+pause: Pausing Music
+pause_de_DE: Wiedergabe beendet
+pause_es_ES: Detén la música
+pause_es_MX: Detén la música
+pause_es_US: Detén la música
+pause_it_IT: interrompo la musica
+pause_fr_CA: Arrêt de la musique
+pause_fr_FR: Arrêt de la musique
+pause_pt_BR: Parando a música
+
+
+resume: Resuming
+resume_de_DE: Wiedergabe wird fortgesetzt
+resume_es_ES: Reanudando
+resume_es_MX: Reanudando
+resume_es_US: Reanudando
+resume_it_IT: riprendo
+resume_fr_CA: Reprise
+resume_fr_FR: Reprise
+resume_pt_BR: reproduzindo
+
+
+fallback: you have to start your command with play, search, or look for
+fallback_de_DE: Der Befehl muss mit Spiele oder Suche nach beginnen
+fallback_es_ES: Debes iniciar el comando diciendo reproduce, busca, o pon esta canción
+fallback_es_MX: Debes iniciar el comando diciendo reproduce, busca, o pon esta canción
+fallback_es_US: Debes iniciar el comando diciendo reproduce, busca, o pon esta canción
+fallback_it_IT: devi iniziare il comando con riproduci, cerca o trova
+fallback_fr_CA: You devez commencer votre commande par lire, chercher ou rechercher
+fallback_fr_FR: You devez commencer votre commande par lire, chercher ou rechercher
+fallback_pt_BR: Você deve começar o comando com toque, procure ou encontre
+
+
+
+noresult: no results found, try another search query
+noresult_de_DE: Keine Ergebnisse gefunden. Versuche es mit einer anderen Suchabfrage
+noresult_es_ES: No se ha encontrado ningún resultado, intenta con otra búsqueda
+noresult_es_MX: No se ha encontrado ningún resultado, intenta con otra búsqueda
+noresult_es_US: No se ha encontrado ningún resultado, intenta con otra búsqueda
+noresult_it_IT: nessun risultato, prova un'altro termine di ricerca
+noresult_fr_CA: Aucun résultat trouvé, essayez une autre recherche
+noresult_fr_FR: Aucun résultat trouvé, essayez une autre recherche
+noresult_pt_BR: Nenhum resultado encontrado, tente novamente
+
+
+
+
+playing: now playing {{song_name}} by {{channel_name}} on youtube
+playing_de_DE: Jetzt läuft {{song_name}} Von {{channel_name}}
+playing_es_ES: Reproduciendo ahora {{song_name}} Por {{channel_name}}
+playing_es_MX: Reproduciendo ahora {{song_name}} Por {{channel_name}}
+playing_es_US: Reproduciendo ahora {{song_name}} Por {{channel_name}}
+playing_it_IT: ora riproducendo {{song_name}} di {{channel_name}}
+playing_fr_CA: Vous écoutez {{song_name}} Par {{channel_name}}
+playing_fr_FR: Vous écoutez {{song_name}} Par {{channel_name}}
+playing_pt_BR: Tocando {{song_name}} de {{channel_name}}
+
+
+card_title: Alpha-Video 
+
+
