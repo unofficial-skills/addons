@@ -1,0 +1,26 @@
+{
+  "name": "YouTube Dl Server",
+  "version": "atomicparsley",
+  "slug": "youtube-dl-server",
+  "image": "nbr23/youtube-dl-server",
+  "description": "Web / REST interface for downloading youtube videos onto a server.",
+  "url": "https://github.com/nbr23/youtube-dl-server",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "webui": "http://[HOST]:[PORT:8080]",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "ports_description": {
+    "8080/tcp": "youtube-dl-server"
+  }
+}
