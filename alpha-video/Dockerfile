@@ -9,4 +9,4 @@ ENV FLASK_APP=__main__.py
 ENV subdomain=nope
 RUN chmod 777 /app/entrypoint.sh
 COPY supervisord.conf /etc/supervisor/supervisord.conf
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./run.sh"]
