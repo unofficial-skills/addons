@@ -1,7 +1,10 @@
 # Changelog
 
-## 3.1 - 2021-05-03
+## 1.5 - 2021-05-29
+-swaped localtuunel for Bespoken proxy
+
+## 1.1 - 2021-05-03
 - Added more languages.
 
-## 2.0 - 2021-04-25
+## 1.0 - 2021-04-25
 - Add Alpha-Video to Hassio
