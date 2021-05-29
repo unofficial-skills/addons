@@ -1,7 +1,0 @@
-starlette
-uvicorn
-aiofiles
-jinja2
-python-multipart
-pyyaml
-youtube-dl
