@@ -18,10 +18,12 @@
   "options": {},
   "schema": {},
   "ports": {
-    "5000/tcp": 5000
+    "5000/tcp": 5000,
+    "9001/tcp": 9001
   },
   "ports_description": {
-    "5000/tcp": "Alpha-Video web portal"
+    "5000/tcp": "Alpha-Video web portal",
+    "9001/tcp": "Supervisor UI"
   },
   "hassio_api": true,
   "options": {
