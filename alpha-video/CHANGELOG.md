@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.5.3 - 2021-06-02
+- Bug Fix
+
 ## 1.5 - 2021-05-29
 -swaped localtuunel for Bespoken proxy
 
