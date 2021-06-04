@@ -24,5 +24,12 @@
   "ports_description": {
     "5000/tcp": "Alpha-Video web portal",
     "9001/tcp": "Supervisor UI"
+  },
+  "options": {
+    "community_host": false
+  },
+  "schema": {
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+    "community_host": "bool"
   }
 }
