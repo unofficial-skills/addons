@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.8.0-pre - 2021-06-22
+- Prerelease of playlist function
+
 ## 1.5.3 - 2021-06-02
 - Bug Fix
 
