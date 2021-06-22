@@ -1,6 +1,6 @@
 {
   "name": "Alpha Video",
-  "version": "1.5.4",
+  "version": "1.8.0-pre",
   "slug": "alpha_video",
   "image": "andrewstech/alpha-video",
   "description": "Stream YouTube on your Alexa device.",
