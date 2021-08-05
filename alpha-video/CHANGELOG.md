@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.0-pre - 2021-08-05
+ - Small bug fixes
+ - Changed playlist system
+ - Added basic proxy support
+
 ## 1.8.0-pre - 2021-06-22
 - Prerelease of playlist function
 
