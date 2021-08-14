@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.9.0 - 2021-08-14
+- Auto plays songs based on search
+
 ## 1.9.0-pre - 2021-08-05
  - Small bug fixes
  - Changed playlist system
