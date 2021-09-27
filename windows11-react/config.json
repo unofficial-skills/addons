@@ -6,11 +6,7 @@
   "description": "Windows11 in React.",
   "url": "https://github.com/blueedgetechno/windows11",
   "arch": [
-    "armhf",
-    "armv7",
-    "aarch64",
     "amd64",
-    "i386"
   ],
   "startup": "before",
   "webui": "http://[HOST]:[PORT:3000]",
