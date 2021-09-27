@@ -1,0 +1,33 @@
+{
+  "name": "Windows11 in react",
+  "version": "1.9.0",
+  "slug": "win11",
+  "image": "ghcr.io/blueedgetechno/windows11:master",
+  "description": "Windows11 in React.",
+  "url": "https://github.com/blueedgetechno/windows11",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "before",
+  "webui": "http://[HOST]:[PORT:3000]",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "web portal"
+  },
+  "options": {
+    "community_host": false
+  },
+  "schema": {
+    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
+    "community_host": "bool"
+  }
+}
