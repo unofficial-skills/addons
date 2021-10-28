@@ -15,14 +15,14 @@ This open source project is made in the hope to replicate the Windows 11 desktop
 
  #### Live Experience🌈: [win11.blueedge.me](https://win11.blueedge.me)
 
-![home](./public/img/home.jpg)
+![home](https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/home.jpg)
 
 # Gallery
-![pic1](./public/img/gallery1.jpg)
+![pic1](https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/gallery1.jpg)
 
-![pic1](./public/img/gallery2.jpg)
+![pic1](https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/gallery2.jpg)
 
-![pic1](./public/img/gallery3.jpg)
+![pic1](https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/gallery3.jpg)
 
 # Why
 
@@ -73,7 +73,7 @@ WHY NOT? Why not just waste a week of your life creating a React project, just t
 - What is the answer of Life, the Universe, and Everything?
   - 42
 
-    ![answer](./public/answer.png)
+    ![answer](https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/answer.png)
 ## Local Deployment
 
 # Docker
