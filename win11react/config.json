@@ -1,6 +1,6 @@
 {
   "name": "Win11React",
-  "version": "sha256:0da7c3434a61be641aa38fb32380a9a64e3a22528ad4d8716854c9e019b0cc6c",
+  "version": "latest",
   "slug": "win11inreact",
   "image": "ghcr.io/blueedgetechno/win11react",
   "description": "A recreation of Windows 11 in React",
