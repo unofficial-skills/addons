@@ -1,0 +1,26 @@
+{
+  "name": "Win11React",
+  "version": "sha256:0da7c3434a61be641aa38fb32380a9a64e3a22528ad4d8716854c9e019b0cc6c",
+  "slug": "win11inreact",
+  "image": "ghcr.io/blueedgetechno/win11react",
+  "description": "A recreation of Windows 11 in React",
+  "url": "https://github.com/blueedgetechno/win11React",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "application",
+  "webui": "http://[HOST]:[PORT:3000]",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Win11inReact"
+  }
+}
