@@ -2,7 +2,7 @@
   "name": "Win11React",
   "version": "latest",
   "slug": "win11inreact",
-  "image": "ghcr.io/blueedgetechno/win11react",
+  "image": "blueedge/win11react",
   "description": "A recreation of Windows 11 in React",
   "url": "https://github.com/blueedgetechno/win11React",
   "arch": [
