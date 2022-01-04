@@ -1,6 +1,6 @@
 {
   "name": "Win11React",
-  "version": "latest",
+  "version": "0.1.8",
   "slug": "win11inreact",
   "image": "blueedge/win11react",
   "description": "A recreation of Windows 11 in React",
