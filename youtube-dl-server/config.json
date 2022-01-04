@@ -1,6 +1,6 @@
 {
   "name": "YouTube Dl Server",
-  "version": "atomicparsley",
+  "version": "yt-dlp_atomicparsley",
   "slug": "youtube-dl-server",
   "image": "nbr23/youtube-dl-server",
   "description": "Web / REST interface for downloading youtube videos onto a server.",
