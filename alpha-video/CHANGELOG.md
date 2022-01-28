@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.9.5 - 2022-01-28
+- Bug Fixes
+
 ## 1.9.0 - 2021-08-14
 - Auto plays songs based on search
 
